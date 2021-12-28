@@ -30,7 +30,7 @@ collection of research papers i've read over the years - a-z (title) desc
 <DT><A HREF="https://pubmed.ncbi.nlm.nih.gov/30537791/">Advances in Delayed-Onset Muscle Soreness (DOMS): Part I: Pathogenesis and Diagnostics - PubMed</A><br>
 <DT><A HREF="https://www.nature.com/articles/s41443-021-00465-0">Adverse effects and potential benefits among selective androgen receptor modulators users: a cross-sectional survey</A><br>
 <DT><A HREF="https://www.aging-us.com/article/202712/text">Aging and rejuvenation - a modular epigenome model - Full Text</A><br>
-<DT><A HREF="https://arcr.niaaa.nih.gov/alcohol-organ-interactions-injury-and-repair/alcohol-and-gut-derived-inflammation">Alcohol and Gut-Derived Inflammation | Alcohol Research: Current Reviews</A><br>
+<DT><A HREF="https://arcr.niaaa.nih.gov/alcohol-organ-interactions-injury-and-repair/alcohol-and-gut-derived-inflammation">Alcohol Research: Current Reviews</A><br>
 <DT><A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2614138/">Alcohol, Intestinal Bacterial Growth, Intestinal Permeability to Endotoxin, and Medical Consequences</A><br>
 <DT><A HREF="https://www.alufoil.org/en/about-alufoil/reference-library/aluminium-foil-and-microwave-ovens.html">Aluminium foil and microwave ovens - European Aluminium Foil Association</A><br>
 <DT><A HREF="https://www.sciencedirect.com/science/article/abs/pii/S0196070919308877">An association between marijuana use and tinnitus - ScienceDirect</A><br>
@@ -57,8 +57,8 @@ collection of research papers i've read over the years - a-z (title) desc
 <DT><A HREF="https://www.sciencedirect.com/science/article/abs/pii/S135951132100266X">Cannabinoids as anticancer and neuroprotective drugs: Structural insights and pharmacological interactions—A review - ScienceDirect</A><br>
 <DT><A HREF="https://www.sciencedirect.com/science/article/abs/pii/S0091305700004779">Cannabinoids of diverse structure inhibit two DOI-induced 5-HT2A receptor-mediated behaviors in mice - ScienceDirect</A><br>
 <DT><A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2809366/">Cannabis and Breastfeeding</A><br>
-<DT><A HREF="https://psychiatryonline.org/doi/full/10.1176/appi.ajp-rj.2018.130202">Cannabis-Induced Depersonalization-Derealization Disorder | American Journal of Psychiatry Residents&#39; Journal</A><br>
-<DT><A HREF="https://psychiatryonline.org/doi/10.1176/appi.ajp-rj.2018.130202">Cannabis-Induced Depersonalization-Derealization Disorder | American Journal of Psychiatry Residents&#39; Journal</A><br>
+<DT><A HREF="https://psychiatryonline.org/doi/full/10.1176/appi.ajp-rj.2018.130202">American Journal of Psychiatry Residents&#39; Journal</A><br>
+<DT><A HREF="https://psychiatryonline.org/doi/10.1176/appi.ajp-rj.2018.130202">American Journal of Psychiatry Residents&#39; Journal</A><br>
 <DT><A HREF="https://pubmed.ncbi.nlm.nih.gov/33779383/">Cannabis-induced oceanic boundlessness - PubMed</A><br>
 <DT><A HREF="https://journals.sagepub.com/doi/abs/10.1177/0269881119845793?journalCode=jopa">Cessation and reduction in alcohol consumption and misuse after psychedelic use - Albert Garcia-Romeu, Alan K Davis, Fire Erowid, Earth Erowid, Roland R Griffiths, Matthew W Johnson, 2019</A><br>
 <DT><A HREF="https://pubmed.ncbi.nlm.nih.gov/31084460/">Cessation and reduction in alcohol consumption and misuse after psychedelic use - PubMed</A><br>
@@ -115,8 +115,8 @@ collection of research papers i've read over the years - a-z (title) desc
 <DT><A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2689518/">Human Cannabinoid Pharmacokinetics</A><br>
 <DT><A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3056407/">Human Hallucinogen Research: Guidelines for Safety</A><br>
 <DT><A HREF="https://pubmed.ncbi.nlm.nih.gov/6290570/">Hyporesponsiveness to the immunosuppressant effects of delta-8-tetrahydrocannabinol - PubMed</A><br>
-<DT><A HREF="https://www.mdpi.com/1422-0067/22/2/835">Free Full-Text | A Single Dose of Psilocybin Increases Synaptic Density and Decreases 5-HT2A Receptor Density in the Pig Brain</A><br>
-<DT><A HREF="https://www.mdpi.com/1422-0067/22/14/7302/htm">Free Full-Text | Epigenetic Regulation of Cannabinoid-Mediated Attenuation of Inflammation and Its Impact on the Use of Cannabinoids to Treat Autoimmune Diseases</A><br>
+<DT><A HREF="https://www.mdpi.com/1422-0067/22/2/835">A Single Dose of Psilocybin Increases Synaptic Density and Decreases 5-HT2A Receptor Density in the Pig Brain</A><br>
+<DT><A HREF="https://www.mdpi.com/1422-0067/22/14/7302/htm">Epigenetic Regulation of Cannabinoid-Mediated Attenuation of Inflammation and Its Impact on the Use of Cannabinoids to Treat Autoimmune Diseases</A><br>
 <DT><A HREF="https://www.tandfonline.com/doi/abs/10.1080/1028415X.2018.1478766?journalCode=ynns20">Improvement of cognitive function in schizophrenia with N-acetylcysteine: A theoretical review: Nutritional Neuroscience: Vol 23, No 2</A><br>
 <DT><A HREF="https://pubmed.ncbi.nlm.nih.gov/20827462/">Intrahippocampal LSD accelerates learning and desensitizes the 5-HT(2A) receptor in the rabbit, Romano et al - PubMed</A><br>
 <DT><A HREF="https://www.sciencedirect.com/science/article/pii/S0376871619304892#bib0015">Investigating the causal effect of cannabis use on cognitive function with a quasi-experimental co-twin design - ScienceDirect</A><br>
@@ -177,8 +177,8 @@ collection of research papers i've read over the years - a-z (title) desc
 <DT><A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5100126/">Role of mindfulness in dissociative disorders among adolescents</A><br>
 <DT><A HREF="https://pubmed.ncbi.nlm.nih.gov/32085521/">Rostral Anterior Cingulate Thickness Predicts the Emotional Psilocybin Experience - PubMed</A><br>
 <DT><A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4086777/">Safety and Efficacy of Lysergic Acid Diethylamide-Assisted Psychotherapy for Anxiety Associated With Life-threatening Diseases</A><br>
-<DT><A HREF="https://sci-hub.se/https://doi.org/10.1021/acschemneuro.8b00101">Sci-Hub | Dark Classics in Chemical Neuroscience: N,N-Dimethyltryptamine (DMT). ACS Chemical Neuroscience | 10.1021/acschemneuro.8b00101</A><br>
-<DT><A HREF="https://sci-hub.se/10.1053/bega.1999.0065">Sci-Hub | How do NSAIDs cause ulcer disease? Best Practice &amp; Research Clinical Gastroenterology, 14(1), 147–159 | 10.1053/bega.1999.0065</A><br>
+<DT><A HREF="https://sci-hub.se/https://doi.org/10.1021/acschemneuro.8b00101">Dark Classics in Chemical Neuroscience: N,N-Dimethyltryptamine (DMT). ACS Chemical Neuroscience | 10.1021/acschemneuro.8b00101</A><br>
+<DT><A HREF="https://sci-hub.se/10.1053/bega.1999.0065">How do NSAIDs cause ulcer disease? Best Practice &amp; Research Clinical Gastroenterology, 14(1), 147–159 | 10.1053/bega.1999.0065</A><br>
 <DT><A HREF="https://elifesciences.org/articles/62878">Self-blinding citizen science to explore psychedelic microdosing</A><br>
 <DT><A HREF="https://pubs.acs.org/doi/10.1021/acsptsci.0c00189?fig=tgr1&ref=pdf&">Serotonin 2A Receptor (5-HT2AR) Activation by 25H-NBOMe Positional Isomers: In Vitro Functional Evaluation and Molecular Docking</A><br>
 <DT><A HREF="https://link.springer.com/article/10.1007/s00213-021-05876-x">Serotonin toxicity of serotonergic psychedelics</A><br>
