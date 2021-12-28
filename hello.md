@@ -30,7 +30,7 @@ collection of research papers i've read over the years - a-z (title) desc
 <DT><A HREF="https://pubmed.ncbi.nlm.nih.gov/30537791/">Advances in Delayed-Onset Muscle Soreness (DOMS): Part I: Pathogenesis and Diagnostics - PubMed</A><br>
 <DT><A HREF="https://www.nature.com/articles/s41443-021-00465-0">Adverse effects and potential benefits among selective androgen receptor modulators users: a cross-sectional survey</A><br>
 <DT><A HREF="https://www.aging-us.com/article/202712/text">Aging and rejuvenation - a modular epigenome model - Full Text</A><br>
-<DT><A HREF="https://arcr.niaaa.nih.gov/alcohol-organ-interactions-injury-and-repair/alcohol-and-gut-derived-inflammation">Alcohol Research: Current Reviews</A><br>
+<DT><A HREF="https://arcr.niaaa.nih.gov/alcohol-organ-interactions-injury-and-repair/alcohol-and-gut-derived-inflammation">Alcohol and Gut-Derived Inflammation</A><br>
 <DT><A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2614138/">Alcohol, Intestinal Bacterial Growth, Intestinal Permeability to Endotoxin, and Medical Consequences</A><br>
 <DT><A HREF="https://www.alufoil.org/en/about-alufoil/reference-library/aluminium-foil-and-microwave-ovens.html">Aluminium foil and microwave ovens - European Aluminium Foil Association</A><br>
 <DT><A HREF="https://www.sciencedirect.com/science/article/abs/pii/S0196070919308877">An association between marijuana use and tinnitus - ScienceDirect</A><br>
@@ -57,8 +57,7 @@ collection of research papers i've read over the years - a-z (title) desc
 <DT><A HREF="https://www.sciencedirect.com/science/article/abs/pii/S135951132100266X">Cannabinoids as anticancer and neuroprotective drugs: Structural insights and pharmacological interactions—A review - ScienceDirect</A><br>
 <DT><A HREF="https://www.sciencedirect.com/science/article/abs/pii/S0091305700004779">Cannabinoids of diverse structure inhibit two DOI-induced 5-HT2A receptor-mediated behaviors in mice - ScienceDirect</A><br>
 <DT><A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2809366/">Cannabis and Breastfeeding</A><br>
-<DT><A HREF="https://psychiatryonline.org/doi/full/10.1176/appi.ajp-rj.2018.130202">American Journal of Psychiatry Residents&#39; Journal</A><br>
-<DT><A HREF="https://psychiatryonline.org/doi/10.1176/appi.ajp-rj.2018.130202">American Journal of Psychiatry Residents&#39; Journal</A><br>
+<DT><A HREF="https://psychiatryonline.org/doi/10.1176/appi.ajp-rj.2018.130202">Cannabis-Induced Depersonalization-Derealization Disorder</A><br>
 <DT><A HREF="https://pubmed.ncbi.nlm.nih.gov/33779383/">Cannabis-induced oceanic boundlessness - PubMed</A><br>
 <DT><A HREF="https://journals.sagepub.com/doi/abs/10.1177/0269881119845793?journalCode=jopa">Cessation and reduction in alcohol consumption and misuse after psychedelic use - Albert Garcia-Romeu, Alan K Davis, Fire Erowid, Earth Erowid, Roland R Griffiths, Matthew W Johnson, 2019</A><br>
 <DT><A HREF="https://pubmed.ncbi.nlm.nih.gov/31084460/">Cessation and reduction in alcohol consumption and misuse after psychedelic use - PubMed</A><br>
