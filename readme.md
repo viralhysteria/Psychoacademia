@@ -1,6 +1,5 @@
-# papers
 collection of research papers i've read over the years - a-z (title) desc<br>
-<H2>2021</H2>
+# 2021
 <OL>
 <A HREF="https://sci-hub.se/https://pubmed.ncbi.nlm.nih.gov/14987433/"> An Ethical Assessment of Anti-Aging Medicine</A><br>
 <A HREF="https://www.cambridge.org/core/journals/cns-spectrums/article/much-ado-about-nothing-monoamine-oxidase-inhibitors-drug-interactions-and-dietary-tyramine/52112573CADFD3303357C09E80617422">“Much ado about nothing”: monoamine oxidase inhibitors, drug interactions, and dietary tyramine</A><br>
