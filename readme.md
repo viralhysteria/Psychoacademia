@@ -1,4 +1,68 @@
 collection of research papers i've read over the years a-z (title) desc<br>
+
+# 2022
+<OL>
+<A HREF="https://www.researchgate.net/publication/353449502_Severe_Vitamin_K-dependent_Coagulopathy_from_Rodenticide-contaminated_Synthetic_Cannabinoids_Emergency_Department_Presentations">(PDF) Severe Vitamin K-dependent Coagulopathy from Rodenticide-contaminated Synthetic Cannabinoids: Emergency Department Presentations</A><br>
+<A HREF="https://www.researchgate.net/publication/346609342_Synthesis_and_Characterization_of_5-MeO-DMT_Succinate_for_Clinical_Use">(PDF) Synthesis and Characterization of 5-MeO-DMT Succinate for Clinical Use</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/31349924/">5-Hydroxytryptophan: A precursor of serotonin influences regional blood-brain barrier breakdown, cerebral blood flow, brain edema formation, and neuropathology - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/34764476/">A data-driven framework for mapping domains of human neurobiology - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/34536126/">A methanol extract and N,N-dimethyltryptamine from Psychotria viridis Ruiz &amp; Pav. inhibit Zika virus infection in vitro - PubMed</A><br>
+<A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5416695/">Acute effects of LSD on amygdala activity during processing of fearful stimuli in healthy subjects</A><br>
+<A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7745734/">Acute Lysergic Acid Diethylamide Does Not Influence Reward-Driven Decision Making of C57BL/6 Mice in the Iowa Gambling Task</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/14586538/">Anandamide inhibits the DOI-induced head-twitch response in mice - PubMed</A><br>
+<A HREF="https://link.springer.com/article/10.1007/s00213-003-1611-y">Anandamide inhibits the DOI-induced head-twitch response in mice | SpringerLink</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/34803754/">Baseline Power of Theta Oscillations Predicts Mystical-Type Experiences Induced by DMT in a Natural Setting - PubMed</A><br>
+<A HREF="https://www.frontiersin.org/articles/10.3389/fimmu.2022.841459/full">Cannabidiol and Terpene Formulation Reducing SARS-CoV-2 Infectivity Tackling a Therapeutic Strategy | Immunology</A><br>
+<A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7987002/">Cannabidiol Inhibits SARS-CoV-2 Replication and Promotes the Host Innate Immune Response</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/35007072/">Cannabinoids Block Cellular Entry of SARS-CoV-2 and the Emerging Variants - PubMed</A><br>
+<A HREF="https://journals.lww.com/jaanp/Citation/2022/01000/Cannabis_for_medical_purposes__A_cross_sectional.16.aspx">Cannabis for medical purposes: A cross-sectional analysis of... : Journal of the American Association of Nurse Practitioners</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/33160291/">Changes in delta-9-tetrahydrocannabinol (THC) and cannabidiol (CBD) concentrations in cannabis over time: systematic review and meta-analysis - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/34134108/">Changes in Online Psychoactive Substance Trade via Telegram during the COVID-19 Pandemic - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/30829033/">Chronic, Intermittent Microdoses of the Psychedelic N, N-Dimethyltryptamine (DMT) Produce Positive Effects on Mood and Anxiety in Rodents - PubMed</A><br>
+<A HREF="https://www.spandidos-publications.com/10.3892/or.2022.8287">Combination of cannabidiol with low‑dose naltrexone increases the anticancer action of chemotherapy &lt;em&gt;in vitro&lt;/em&gt; and &lt;em&gt;in vivo&lt;/em&gt;</A><br>
+<A HREF="https://www.sciencedirect.com/science/article/pii/S0960982211011419">Cortical Hypersynchrony Predicts Breakdown of Sensory Processing during Loss of Consciousness - ScienceDirect</A><br>
+<A HREF="https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-017-4099-9">Declining rates of health problems associated with crack smoking during the expansion of crack pipe distribution in Vancouver, Canada | BMC Public Health | Full Text</A><br>
+<A HREF="https://www.atsjournals.org/doi/10.1164/rccm.202109-2058OC?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org">Differential Effects of Cannabis and Tobacco on Lung Function in Mid-Adult Life | American Journal of Respiratory and Critical Care Medicine | Articles in Press</A><br>
+<A HREF="https://www.nature.com/articles/s41386-022-01297-2.pdf">Direct comparison of the acute effects of lysergic acid diethylamide and psilocybin in a double-blind placebo-controlled study in healthy subjects</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/33043883/">DMT alters cortical travelling waves - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/30174629/">DMT Models the Near-Death Experience - PubMed</A><br>
+<A HREF="https://www.researchgate.net/publication/284556944_DMT_self-administration_by_monkeys_in_isolation">DMT self-administration by monkeys in isolation</A><br>
+<A HREF="https://www.nature.com/articles/s41593-018-0200-7">Does predictive coding have a future? | Nature Neuroscience</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/34467598/">Effects of cannabidiol in cannabis flower: Implications for harm reduction - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/35166158/">Efficacy and safety of psilocybin-assisted treatment for major depressive disorder: Prospective 12-month follow-up - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/32931403/">Efficacy of Psychoactive Drugs for the Treatment of Posttraumatic Stress Disorder: A Systematic Review of MDMA, Ketamine, LSD and Psilocybin - PubMed</A><br>
+<A HREF="https://www.nature.com/articles/s41398-021-01682-3">Expectancy effects on serotonin and dopamine transporters during SSRI treatment of social anxiety disorder: a randomized clinical trial | Translational Psychiatry</A><br>
+<A HREF="https://www.frontiersin.org/articles/10.3389/fphar.2021.777804/full">Frontiers | Minor Cannabinoids: Biosynthesis, Molecular Pharmacology and Potential Therapeutic Uses | Pharmacology</A><br>
+<A HREF="https://www.frontiersin.org/articles/10.3389/fphar.2020.00359/full">Frontiers | Terpenoids From Cannabis Do Not Mediate an Entourage Effect by Acting at Cannabinoid Receptors | Pharmacology</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/28517366/">Genie in a blotter: A comparative study of LSD and LSD analogues&#39; effects and user profile - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/34545650/">Harmaline isolated from Peganum harmala suppresses growth of esophageal squamous cell carcinoma through targeting mTOR - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/11737987/">Inhibition of human CYP3A4 activity by grapefruit flavonoids, furanocoumarins and related compounds - PubMed</A><br>
+<A HREF="https://sci-hub.ru/https://doi.org/10.1016/0165-1781(87)90107-7">L-5-hydroxytryptophan attenuates positive psychotic symptoms induced by D-amphetamine. Psychiatry Research, 22(4), 283–289 | 10.1016/0165-1781(87)90107-7</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/31500679/">LSD acutely impairs working memory, executive functions, and cognitive flexibility, but not risk-based decision-making - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/5472922/">Lysergic acid diethylamide (LSD 25. XXXIX. The effect of high temperature on stability - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/33495318/">Lysergic acid diethylamide (LSD) promotes social behavior through mTORC1 in the excitatory neurotransmission - PubMed</A><br>
+<A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4322621/">Mitochondrial uncoupling proteins and energy metabolism</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/31745107/">Neural correlates of the DMT experience assessed with multivariate EEG - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/33343929/">Neural network models for DMT-induced visual hallucinations - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/33242285/">Persistent Tinnitus after Inhaled N,N-dimethyltryptamine (DMT) - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/33031815/">Potential safety, benefits, and influence of the placebo effect in microdosing psychedelic drugs: A systematic review - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/33915107/">Psychedelic-inspired drug discovery using an engineered biosensor - PubMed</A><br>
+<A HREF="https://www.cell.com/current-biology/fulltext/S0960-9822(21)01685-7">Psychedelics: Current Biology</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/30262987/">Psychoplastogens: A Promising Class of Plasticity-Promoting Neurotherapeutics - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/32960851/">Re-evaluation of the discriminative stimulus effects of lysergic acid diethylamide with male and female Sprague-Dawley rats - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/8561056/">Reduced stomach capacity in obese subjects after dieting - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/32298953/">Regular cannabis use is associated with blunted affective, but not cardiovascular, stress responses - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/32619708/">Serotonergic psychedelics LSD &amp; psilocybin increase the fractal dimension of cortical brain activity in spatial and temporal domains - PubMed</A><br>
+<A HREF="https://psychotropical.com/wp-content/uploads/2020/03/9.2-MAOI_diet_drug_interactions_2020_current_v.pdf">Serotonin toxicity (serotonin syndrome)</A><br>
+<A HREF="https://www.sciencedaily.com/releases/2021/12/211217102915.htm">Shark antibody-like proteins neutralize COVID-19 virus, help prepare for future coronaviruses -- ScienceDaily</A><br>
+<A HREF="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7003923/">Simultaneous Production of Psilocybin and a Cocktail of β‐Carboline Monoamine Oxidase Inhibitors in “Magic” Mushrooms</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/12369887/">The cytochrome P450 superfamily: biochemistry, evolution and drug metabolism in humans - PubMed</A><br>
+<A HREF="https://pubmed.ncbi.nlm.nih.gov/33307427/">The entropic tongue: Disorganization of natural language under LSD - PubMed</A><br>
+<A HREF="https://link.springer.com/chapter/10.1007%2F978-3-030-74837-1_22">The Ethics of Web Crawling and Web Scraping in Cybercrime Research: Navigating Issues of Consent, Privacy, and Other Potential Harms Associated with Automated Data Collection | SpringerLink</A><br>
+<A HREF="https://journals.sagepub.com/doi/10.1177/00031348211069789">Title: Marijuana Use Associated with Decreased Mortality in Trauma Patients - Samuel R. Bloom, Areg Grigorian, Sebastian Schubl, Duraiyah Thangathurai, Catherine M. Kuza, Lourdes Swentek, Jeffry Nahmias, 2022</A><br>
+<A HREF="https://www.sciencedirect.com/science/article/abs/pii/S0376635711001689?via%3Dihub">When is it adaptive to be patient? A general framework for evaluating delayed rewards - ScienceDirect</A><br>
+</OL>
+
 # 2021
 <OL>
 <A HREF="https://sci-hub.se/https://pubmed.ncbi.nlm.nih.gov/14987433/"> An Ethical Assessment of Anti-Aging Medicine</A><br>
