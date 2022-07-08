@@ -1,5 +1,9 @@
 collection of research papers i've read over the years a-z (title) desc<br>
 
+bump
+
+i'll figure out a way to sort these eventually
+
 # 2022
 <OL>
 <A HREF="https://www.researchgate.net/publication/353449502_Severe_Vitamin_K-dependent_Coagulopathy_from_Rodenticide-contaminated_Synthetic_Cannabinoids_Emergency_Department_Presentations">(PDF) Severe Vitamin K-dependent Coagulopathy from Rodenticide-contaminated Synthetic Cannabinoids: Emergency Department Presentations</A><br>
