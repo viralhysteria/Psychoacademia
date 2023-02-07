@@ -1,4 +1,13 @@
-### https://remarkable-cheesecake-2a1b3a.netlify.app/
+### did you write or contribute to any of these?  
+nope; would like to someday though.
+
+### so, what's the point of this repo exactly?  
+curated list; i've read all these papers.  
+why read 5,000 papers when you could just read 500 of them instead?  
+a lot of papers can't be "enjoyed" by the non-researcher,  
+a lot of these are a bit on the digsetable side.
+
+### stylized mirror (bit of a hobby/practice thing, ignore any weird design choices): https://remarkable-cheesecake-2a1b3a.netlify.app/
 
 ## 2021  
 #### DMT (N,N-Dimethyltryptamine)  
