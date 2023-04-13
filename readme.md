@@ -1,9 +1,4 @@
-### did you write or contribute to any of these?  
-nope; would like to someday though.
-
-### so, what's the point of this repo exactly?  
-curated list; i've read all these papers.  
-why read 5,000 papers when you could just read 500 of them instead?  
+This is a curated list of scientific papers related to psychedelics, which I have personally read and vetted for accuracy and relevance. The papers cover a range of topics, including mental health treatment and pharmacology. Each paper has been carefully selected based on its scientific merit -ChatGPT
 
 ### stylized mirror (bit of a hobby/practice thing, ignore any weird design choices): https://remarkable-cheesecake-2a1b3a.netlify.app/
 
