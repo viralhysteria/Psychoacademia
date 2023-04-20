@@ -1,6 +1,20 @@
-This is a curated list of scientific papers related to psychedelics, which I have personally read and vetted for accuracy and relevance. The papers cover a range of topics, including mental health treatment and pharmacology. Each paper has been carefully selected based on its scientific merit -ChatGPT
+This is a curated list of scientific papers related to psychedelics, which I have personally read and vetted for accuracy and relevance.  
+The papers cover a range of topics, including mental health treatment and pharmacology.  
+Each paper has been carefully selected based on its scientific merit -ChatGPT
 
-### stylized mirror (bit of a hobby/practice thing, ignore any weird design choices): https://remarkable-cheesecake-2a1b3a.netlify.app/
+Full process used for pasrsing bookmarks:
+```
+• Organize in-browser  
+• Export bookmarks.html  
+• Extract file contents  
+• add <div id="papers">, close  
+• run bookmarks.py script  
+• replace </tr>, add \n    
+• Find: >(\w+(-\w+)?\s\|\s) | Replace: >  
+• Find: \s-\s\w+<|\s\|\s(\w+((-|\s)\w+)?)< | Replace: <  
+```
+
+https://remarkable-cheesecake-2a1b3a.netlify.app/
 
 ## 2021  
 #### DMT (N,N-Dimethyltryptamine)  
