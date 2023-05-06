@@ -12,8 +12,13 @@ Full process used for pasrsing bookmarks:
 • replace </tr>, add \n    
 • Find: >(\w+(-\w+)?\s\|\s) | Replace: >  
 • Find: \s-\s\w+<|\s\|\s(\w+((-|\s)\w+)?)< | Replace: <  
+(I'll automate the last steps eventually)
 ```
 
+**New Site (more responsive, better viewport compatibility)**  
+https://remarkable-cheesecake-fe7dbe.netlify.app/
+
+**Old Site**  
 https://remarkable-cheesecake-2a1b3a.netlify.app/
 
 ## 2021  
