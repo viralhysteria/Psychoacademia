@@ -2,7 +2,7 @@ This is a curated list of scientific papers related to psychedelics, which I hav
 The papers cover a range of topics, including mental health treatment and pharmacology.  
 Each paper has been carefully selected based on its scientific merit -ChatGPT
 
-Full process used for pasrsing bookmarks:
+Full process used for parsing bookmarks:
 ```
 • Organize in-browser  
 • Export bookmarks.html  
