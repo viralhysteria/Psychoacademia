@@ -1,28 +1,16 @@
-This is a curated list of scientific papers related to psychedelics, which I have personally read and vetted for accuracy and relevance.  
-The papers cover a range of topics, including mental health treatment and pharmacology.  
-Each paper has been carefully selected based on its scientific merit -ChatGPT
+Curated list of scientific papers bearing some relation to psychedelics/perception
 
-Full process used for parsing bookmarks:
-```
-• Organize in-browser  
-• Export bookmarks.html  
-• Extract file contents  
-• add <div id="papers">, close  
-• run bookmarks.py script  
-• replace </tr>, add \n    
-• Find: >(\w+(-\w+)?\s\|\s) | Replace: >  
-• Find: \s-\s\w+<|\s\|\s(\w+((-|\s)\w+)?)< | Replace: <  
-(I'll automate the last steps eventually)
-```
-
-**New Site (more responsive, better viewport compatibility)**  
+**New Site (responsive)**  
 https://remarkable-cheesecake-fe7dbe.netlify.app/
 
-**Old Site**  
+**Old Site (for novelty)**  
 https://remarkable-cheesecake-2a1b3a.netlify.app/
 
 ## 2021  
-#### DMT (N,N-Dimethyltryptamine)  
+<details>
+  <summary>Expand</summary>
+  
+  #### DMT (N,N-Dimethyltryptamine)  
 [The Endogenous Hallucinogen and Trace Amine N,N-Dimethyltryptamine (DMT) Displays Potent Protective Effects against Hypoxia via Sigma-1 Receptor Activation in Human Primary iPSC-Derived Cortical Neurons and Microglia-Like Immune Cells](https://www.researchgate.net/publication/308074251_The_Endogenous_Hallucinogen_and_Trace_Amine_NN-Dimethyltryptamine_DMT_Displays_Potent_Protective_Effects_against_Hypoxia_via_Sigma-1_Receptor_Activation_in_Human_Primary_iPSC-Derived_Cortical_Neurons_)  
 [5-MeO-DMT vs. N,N-DMT: The 9 Lenses](https://qualiacomputing.com/2020/07/01/5-meo-dmt-vs-nn-dmt-the-9-lenses/)  
 [Biosynthesis and Extracellular Concentrations of N,N-dimethyltryptamine (DMT) in Mammalian Brain](https://www.nature.com/articles/s41598-019-45812-w)  
@@ -238,8 +226,12 @@ https://remarkable-cheesecake-2a1b3a.netlify.app/
 [Ventral striatum regulates behavioral response to ethanol and MDMA combination](https://onlinelibrary.wiley.com/doi/10.1111/adb.12938)  
 [Vitamin D deficiency exacerbates UV/endorphin and opioid addiction](https://advances.sciencemag.org/content/7/24/eabe4577)  
 [β-carboline alkaloid harmine induces DNA damage and triggers apoptosis by a mitochondrial pathway: study in silico, in vitro and in vivo](https://www.spandidos-publications.com/10.3892/ijfn.2020.1)  
+</details>
   
 ## 2022  
+<details>
+  <summary>Expand</summary>
+
 #### DMT (N,N-Dimethyltryptamine)  
 [Synthesis and Characterization of 5-MeO-DMT Succinate for Clinical Use](https://www.researchgate.net/publication/346609342_Synthesis_and_Characterization_of_5-MeO-DMT_Succinate_for_Clinical_Use)  
 [A methanol extract and N,N-dimethyltryptamine from Psychotria viridis Ruiz & Pav. inhibit Zika virus infection in vitro](https://pubmed.ncbi.nlm.nih.gov/34536126/)  
@@ -377,3 +369,4 @@ https://remarkable-cheesecake-2a1b3a.netlify.app/
 #### Other  
 [Cannabis Evidence](https://www.cannabisevidence.org/)  
 [700 Medical Cannabis Studies Sorted By Disease – Cannabis Activism Now](https://cannabisactivismnow.com/700-medical-cannabis-studies-sorted-by-disease/)  
+</details>
