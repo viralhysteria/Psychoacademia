@@ -55,11 +55,14 @@ fetch('src/links.json', {
 
 const papers = document.querySelectorAll(".papers tbody tr td a");
 
-fetch('path/to/cat.json')
-    .then(response => response.json())
-    .then(cat => {
+fetch('path/to/cat.js')
+    .then(response => response.text())
+    .then(catScript => {
+        eval(catScript);
+        const catData = cat;
+
         papers.forEach((paper) => {
-            const m = cat.reduce((i, { r, iClasses }) => {
+            const m = catData.reduce((i, { r, i: iClasses }) => {
                 if (r.test(paper.textContent)) {
                     return [...i, ...iClasses];
                 }
