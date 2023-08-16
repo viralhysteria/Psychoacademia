@@ -7,10 +7,17 @@ from bs4 import BeautifulSoup
 from pathlib import Path
 
 # JSON extraction
-def createJson():
+
+
+import json
+import codecs
+from bs4 import BeautifulSoup
+import os
+from pathlib import Path
+
+def createJson(links):
     with open('..\\table.html', 'r', encoding='utf-8') as f:
         html = f.read()
-
         soup = BeautifulSoup(html, 'html.parser')
         table = soup.find('table')
         if table is not None:
@@ -21,30 +28,47 @@ def createJson():
                     a = td.find('a')
                     if a is not None:
                         row = {}
-                        row['url'] = a['href']
                         row['title'] = a.text
+                        row['url'] = a['href']
                         links.append(row)
                         print(links)
     with codecs.open('..\\links.json', 'w', encoding='utf-8') as f:
         json.dump(links, f)
+    pass
+
 
 # HTML Parser
 home = str(Path.home())
 bookmarks = os.path.join(home, 'Documents', 'bookmarks.html')
 
 with open(bookmarks, 'r', encoding='utf-8') as f:
-    soup = BeautifulSoup(f, 'html.parser')
-    container = soup.find('h3', text='Papers')
-    papers = container.find_all_next('a')
+    links = []
+    html = f.read()
+    soup = BeautifulSoup(html, 'html.parser')
+    p_h3 = soup.find('h3', text='Papers')
+    if p_h3 is not None:
+        p_dl = p_h3.find_next_sibling('dl')
+        if p_dl is not None:
+            anchor_tags = p_dl.find_all('a')
+            for a in anchor_tags:
+                row = {}
+                row['url'] = a['href']
+                row['title'] = a.text
+                links.append(row)
+            print(links)
 
-papers = sorted(papers, key=lambda x: x.text)
+    with codecs.open('..\\links.json', 'w', encoding='utf-8') as f:
+        json.dump(links, f)
+
+    papers = sorted(links, key=lambda x: x['title'])  # Sort the links based on title
 
 output = input("Enter output format (html or md): ")
 if output == 'html':
     with open('..\\table.html', 'r+', encoding='utf-8') as f:
         f.write('<table>\n')
         for paper in papers:
-            f.write(f'<tr><td><a href="{paper["href"]}">{paper.text}</a></td></tr>\n')
+            f.write(
+                f'<tr><td><a href="{paper["url"]}">{paper["title"]}</a></td></tr>\n')
         f.write('\n</table>')
         f.seek(0)
         content = f.read()
@@ -55,11 +79,11 @@ if output == 'html':
         f.truncate()
         print("Output saved as table.html")
         print("Creating JSON library...")
-        createJson()
+        createJson(links)
 elif output == 'md':
     with open('..\\table.md', 'w', encoding='utf-8') as f:
         for paper in papers:
-            f.write(f'* [{paper.text}]({paper["href"]})\n')
+            f.write(f'* [{paper["title"]}]({paper["url"]})\n')
     print("Output saved as table.md")
 else:
     print("Invalid output format. Please enter 'html' or 'md'.")
