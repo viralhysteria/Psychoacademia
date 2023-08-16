@@ -1,0 +1,268 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root,
+.light {
+    --bg-color: #fafafa;
+    --bg-color-alt: #eeeded;
+    --text-color: #333;
+    --highlight-color: rgb(243, 234, 114);
+}
+
+.dark {
+    --bg-color: #101724;
+    --bg-color-alt: #1d2333;
+    --text-color: #fafafa;
+    --highlight-color: rgb(55, 173, 241);
+}
+
+body {
+    background: var(--bg-color);
+    margin: 0;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.pattern {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.1;
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(45deg, var(--text-color) 0, var(--text-color) 1px, var(--bg-color) 0, var(--bg-color) 50%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    font-size: 1em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+hr {
+    color: var(--text-color);
+}
+
+hr {
+    width: 90%;
+    border-top: 2px solid var(--text-color);
+}
+
+header {
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+header, footer div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: none;
+}
+
+footer div {
+    justify-content: center;
+    padding: 15px;
+}
+
+footer div >  {
+    padding: 0 15px;
+}
+
+header,
+.other {
+    text-transform: uppercase;
+}
+
+header h1,
+header a {
+    padding: 0 5px;
+    border: 3px solid var(--text-color);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+table {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--text-color);
+    border-collapse: collapse;
+    max-width: 90%;
+    margin-top: 1em;
+    padding: 15px;
+    transition: background 0.5s ease-in-out;
+}
+
+header h1,
+header a,
+table,
+th {
+    background: var(--bg-color);
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+td:not(:first-child):not(:last-child) {
+    padding: 1em 0 !important;
+}
+
+td i {
+    margin-right: 5px;
+}
+
+i[class*='newspaper'] {
+    color: var(--text-color);
+}
+
+i[class*="cannabis"] {
+    color: rgb(72, 180, 72);
+}
+
+i[class*="pills"] {
+    color: rgb(158, 75, 184);
+}
+
+i[class*="hat-wizard"] {
+    color: rgb(83, 83, 240);
+}
+
+i[class*="eye"] {
+    color: rgb(255, 187, 0);
+}
+
+i[class*="brain"] {
+    color: rgb(231, 139, 177);
+}
+
+i[class*="leaf"] {
+    color: rgba(38, 165, 148, 0.836);
+}
+
+i[class*='wine'] {
+    color: rgb(194, 63, 80);
+}
+
+i[class*="rainbow"] {
+    background: linear-gradient(0deg, rgba(222,224,33,1) 15%, rgba(222,40,40,1) 40%, rgba(37,219,50,1) 72%, rgba(51,191,235,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+th {
+    transition: background 0.5s ease-in-out;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0.5em 1em;
+}
+
+tr {
+    transition: none;
+    border-radius: 15px;
+}
+
+/* tr:nth-child(even) {
+    background: var(--bg-color);
+} */
+
+tr:hover {
+    background: var(--bg-color);
+    border-radius: 15px;
+}
+
+td:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+tbody {
+    border-radius: 15px;
+}
+
+tbody tr:hover {
+    background: var(--bg-color-alt);
+}
+
+tbody tr:first-of-type:hover,
+tbody tr:nth-of-type(n):last-of-type:hover {
+    border-radius: 15px 15px 0 0;
+}
+
+tbody tr:active {
+    background: var(--highlight-color);
+    transition: none !important;
+}
+
+.other {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+.other a {
+    font-size: 0.75em !important;
+}
+
+.toggle {
+    text-decoration: none;
+    user-select: none;
+}
+
+/* ========================= */
+
+@media screen and (min-width: 120em) and (max-width: 215em) {
+    body {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 48em) {
+
+    header a,
+    header h1 {
+        font-size: 1em;
+    }
+
+    #other {
+        width: 90%;
+        flex-wrap: wrap;
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    header {
+        flex-direction: row;
+    }
+
+    header a,
+    header h1 {
+        font-size: 0.8em;
+        white-space: nowrap;
+    }
+
+    #other a:nth-of-type(n+3):nth-of-type(-n+4)::after {
+        content: ' /';
+    }
+
+    td {
+        font-size: 0.8em;
+    }
+}
