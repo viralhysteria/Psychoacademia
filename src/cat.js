@@ -37,3 +37,5 @@ const cat = [
     i: ["fa-cannabis"],
   },
 ];
+
+export default cat;
