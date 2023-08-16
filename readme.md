@@ -1,11 +1,5 @@
 Curated list of scientific papers bearing some relation to psychedelics/perception
 
-**New Site (responsive)**  
-https://remarkable-cheesecake-fe7dbe.netlify.app/
-
-**Old Site (for novelty)**  
-https://remarkable-cheesecake-2a1b3a.netlify.app/
-
 ## 2021  
 <details>
   <summary>Expand</summary>
