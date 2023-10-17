@@ -1,4 +1,8 @@
-Curated list of scientific papers bearing some relation to psychedelics/perception
+### Psychoacademia 
+-----
+Curated list of scientific papers bearing some relation to psychedelics/perception/consciousness/metaphysics  
+
+There may be a couple papers sprinkled in related to nutrition/fitness (I'll work on sorting that issue later)
 
 ## 2021  
 <details>
