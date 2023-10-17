@@ -91,30 +91,3 @@ fetch('path/to/cat.js')
     .catch(error => {
         console.error('Error loading categories:', error);
     });
-
-// paper.forEach((a) => {
-//   const m = cat.reduce((i, { r, i: iClasses }) => {
-//     if (r.test(a.textContent)) {
-//       return [...i, ...iClasses];
-//     }
-//     return i;
-//   }, []);
-
-//   if (m.length > 0) {
-//     const container = document.createElement("div");
-//     container.classList.add("fa-container");
-//     container.style.display = "inline-flex";
-
-//     m.forEach((iClass) => {
-//       const e = document.createElement("i");
-//       e.classList.add("fas", iClass);
-//       container.appendChild(e);
-//     });
-
-//     a.insertAdjacentElement("beforebegin", container);
-//   } else {
-//     const e = document.createElement("i");
-//     e.classList.add("fas", "fa-newspaper");
-//     a.insertAdjacentElement("beforebegin", e);
-//   }
-// });
