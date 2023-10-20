@@ -1,3 +1,6 @@
+### Psychoacademia 
+-----
+
 Curated list of scientific papers bearing some relation to psychedelics/perception
 
 ## 2021  
