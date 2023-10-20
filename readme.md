@@ -1,7 +1,12 @@
 ### Psychoacademia 
 -----
 
-Curated list of scientific papers bearing some relation to psychedelics/perception
+Curated list of scientific papers bearing some relation to psychedelics/perception  
+
+#### <ins>To-Do:</ins>
+-  finish react/next webpage re-write
+-  add publication date fetch to parsing script
+-  tbd...
 
 ## 2021  
 <details>
