@@ -2,50 +2,23 @@ import os
 import re
 import json
 import codecs
+import shutil
 import pandas as pd
 from bs4 import BeautifulSoup
 from pathlib import Path
 
-# JSON extraction
+os_home = str(Path.home())
+bookmarks = os.path.join(os_home, 'Documents', 'bookmarks.html')
+os_cwd = os.getcwd()
+source = os.path.join(os_cwd, 'unparsed.html')
+shutil.copy(bookmarks, source)
 
-
-import json
-import codecs
-from bs4 import BeautifulSoup
-import os
-from pathlib import Path
-
-def createJson(links):
-    with open('..\\table.html', 'r', encoding='utf-8') as f:
-        html = f.read()
-        soup = BeautifulSoup(html, 'html.parser')
-        table = soup.find('table')
-        if table is not None:
-            tr = table.find('tr')
-            if tr is not None:
-                td = tr.find('td')
-                if td is not None:
-                    a = td.find('a')
-                    if a is not None:
-                        row = {}
-                        row['title'] = a.text
-                        row['url'] = a['href']
-                        links.append(row)
-                        print(links)
-    with codecs.open('..\\links.json', 'w', encoding='utf-8') as f:
-        json.dump(links, f)
-    pass
-
-
-# HTML Parser
-home = str(Path.home())
-bookmarks = os.path.join(home, 'Documents', 'bookmarks.html')
-
-with open(bookmarks, 'r', encoding='utf-8') as f:
+with open(source, 'r', encoding='utf-8') as f:
+    print('Pulling papers from bookmarks...')
     links = []
     html = f.read()
     soup = BeautifulSoup(html, 'html.parser')
-    p_h3 = soup.find('h3', text='Papers')
+    p_h3 = soup.find('h3', string='HTML_PARSE_HERE')
     if p_h3 is not None:
         p_dl = p_h3.find_next_sibling('dl')
         if p_dl is not None:
@@ -55,16 +28,15 @@ with open(bookmarks, 'r', encoding='utf-8') as f:
                 row['url'] = a['href']
                 row['title'] = a.text
                 links.append(row)
-            print(links)
 
     with codecs.open('..\\links.json', 'w', encoding='utf-8') as f:
         json.dump(links, f)
 
-    papers = sorted(links, key=lambda x: x['title'])  # Sort the links based on title
+    papers = sorted(links, key=lambda x: x['title'])
 
-output = input("Enter output format (html or md): ")
+output = input("Enter output format (html/json/md): ")
 if output == 'html':
-    with open('..\\table.html', 'r+', encoding='utf-8') as f:
+    with open('table.html', 'r+', encoding='utf-8') as f:
         f.write('<table>\n')
         for paper in papers:
             f.write(
@@ -77,13 +49,19 @@ if output == 'html':
         f.seek(0)
         f.write(content)
         f.truncate()
-        print("Output saved as table.html")
-        print("Creating JSON library...")
-        createJson(links)
+    print("Output saved as table.html")
 elif output == 'md':
-    with open('..\\table.md', 'w', encoding='utf-8') as f:
+    with open('table.md', 'w', encoding='utf-8') as md_f:
         for paper in papers:
-            f.write(f'* [{paper["title"]}]({paper["url"]})\n')
+            md_f.write(f'* [{paper["title"]}]({paper["url"]})\n')
     print("Output saved as table.md")
+elif output == 'json':
+    json_data = []
+    for paper in papers:
+        json_data.append({"title": paper["title"], "url": paper["url"]})
+    with open('links.json', 'w', encoding='utf-8') as json_f:
+        json.dump(json_data, json_f, indent=4)
+    print("Output saved as links.json")
 else:
-    print("Invalid output format. Please enter 'html' or 'md'.")
+    print("Invalid output format selected. Please try again.")
+os.remove(source)
