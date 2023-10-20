@@ -51,16 +51,17 @@ if output == 'html':
         f.truncate()
     print("Output saved as table.html")
 elif output == 'md':
-    with open('table.md', 'w', encoding='utf-8') as md_f:
+    with open('table.md', 'w', encoding='utf-8') as f:
         for paper in papers:
-            md_f.write(f'* [{paper["title"]}]({paper["url"]})\n')
+            f.write(f'* [{paper["title"]}]({paper["url"]})\n')
     print("Output saved as table.md")
 elif output == 'json':
     json_data = []
-    for paper in papers:
-        json_data.append({"title": paper["title"], "url": paper["url"]})
-    with open('links.json', 'w', encoding='utf-8') as json_f:
-        json.dump(json_data, json_f, indent=4)
+    json_path = os.path.join("public", "links.json")
+    for index, paper in enumerate(papers):
+        json_data.append({"id": index + 1, "title": paper["title"], "url": paper["url"]})
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(json_data, f, indent=4)
     print("Output saved as links.json")
 else:
     print("Invalid output format selected. Please try again.")
