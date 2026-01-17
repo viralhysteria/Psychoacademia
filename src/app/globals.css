@@ -1,0 +1,295 @@
+/* ==================== Bootstrap Variable Overrides ==================== */
+:root {
+  --bs-nav-underline-gap: 0.5rem !important;
+  --bs-list-group-bg: var(--bs-secondary-bg) !important;
+  --bs-dropdown-link-hover-bg: var(--bs-secondary-bg);
+  --bs-dropdown-link-active-bg: var(--bs-tertiary-bg);
+  --bs-list-group-action-active-bg: var(--bs-tertiary-bg);
+  --bs-pagination-focus-color: var(--bs-body-color);
+  --bs-pagination-focus-bg: transparent;
+  --bs-pagination-focus-box-shadow: none;
+}
+
+/* ==================== Theme Colors ==================== */
+html[data-bs-theme="light"] {
+  --bs-body-bg: #f4f4f4;
+  --bs-secondary-bg: #ececec;
+  --bs-tertiary-bg: #cacaca;
+  --bs-border-color: #b6b6b6;
+}
+
+html[data-bs-theme="dark"] {
+  --bs-body-bg: #110a22;
+  --bs-secondary-bg: #281c42;
+  --bs-tertiary-bg: #403063;
+  --bs-border-color: #594781;
+}
+
+/* ==================== Base ==================== */
+hr {
+  margin: 0;
+}
+
+/* ==================== Background ==================== */
+.background {
+  position: fixed;
+  inset: -30px;
+  height: 100dvh;
+  background-image: url("/wallpaper.jpg");
+  background-size: cover;
+  will-change: filter;
+}
+
+@supports (backdrop-filter: blur(20px)) {
+  #home > .background {
+    filter: blur(20px) opacity(0.15);
+  }
+}
+
+/* ==================== Button ==================== */
+.btn {
+  border: none !important;
+}
+
+/* ==================== Dropdown ==================== */
+.dropdown-menu {
+  border: 1px solid var(--bs-border-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.dropdown-item {
+  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+}
+
+.dropdown-menu > .nav-link {
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-menu > .nav-link:hover {
+  background: var(--bs-secondary-bg);
+}
+
+.dropdown-menu > .nav-link:active {
+  background: var(--bs-tertiary-bg);
+}
+
+/* ==================== Resources Menu ==================== */
+.resources > div > div {
+  --bs-dropdown-min-width: 11rem;
+}
+
+.resources > div > div svg {
+  margin: 0 0.25rem;
+}
+
+/* ==================== Filter Dropdown ==================== */
+.filter .dropdown-item {
+  cursor: default;
+  background: none;
+}
+
+/* ==================== List Group ==================== */
+.list-group {
+  background-color: var(--bs-secondary-bg);
+}
+
+.list-group-item {
+  font-size: 1rem;
+}
+
+.list-group-item-action {
+  transition: background-color 0.5s ease;
+}
+
+/* ==================== Pagination ==================== */
+.page-link {
+  color: var(--bs-body-color);
+  border: none;
+  border-radius: 5px !important;
+  margin: 0 2px;
+  background-color: transparent;
+  transition: color 0.2s ease;
+}
+
+.page-link:hover {
+  background-color: transparent;
+  color: var(--bs-body-color);
+}
+
+.active > .page-link {
+  color: var(--bs-secondary-color);
+  background-color: transparent;
+}
+
+/* ==================== Category Icons ==================== */
+.icon-newspaper {
+  color: var(--bs-body-color);
+}
+
+.icon-cannabis {
+  color: #48b448;
+}
+
+.icon-pills {
+  color: #9e4bb8;
+}
+
+.icon-hat-wizard {
+  color: #5353f0;
+}
+
+.icon-eye {
+  color: #f3c444;
+}
+
+.icon-brain {
+  color: #e78bb1;
+}
+
+.icon-leaf {
+  color: #26a594;
+}
+
+.icon-wine-glass {
+  color: #c23f50;
+}
+
+.icon-dumbbell {
+  color: #969696;
+}
+
+.icon-rainbow {
+  color: #32aada;
+}
+
+/* ==================== Animations ==================== */
+@keyframes expandAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ==================== Responsive Design ==================== */
+
+#nav {
+  width: 100vw !important;
+  max-width: 100% !important;
+}
+
+#nav .container-fluid {
+  max-width: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .pagination {
+    margin-bottom: 0 !important;
+    justify-content: flex-start !important;
+  }
+
+  .d-flex.gap-2 {
+    margin-left: auto !important;
+  }
+
+  .list-group-item {
+    font-size: 0.9rem;
+    padding: 0.75rem;
+  }
+
+  .dropdown-menu {
+    min-width: 100% !important;
+  }
+
+  .d-inline-flex.gap-2 {
+    gap: 0.5rem !important;
+  }
+
+  .filter .form-control {
+    font-size: 16px;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .list-group-item {
+    font-size: 0.85rem;
+    padding: 0.625rem 0.5rem;
+  }
+
+  .pagination
+    .page-item:not(.active):not(:first-child):not(:last-child):not(:nth-child(2)):not(
+      :nth-last-child(2)
+    ) {
+    display: none;
+  }
+
+  .navbar-brand {
+    font-size: 0.9rem;
+    margin-left: 0.25rem !important;
+  }
+
+  .resources {
+    gap: 0.25rem;
+  }
+
+  .d-flex.py-2 {
+    gap: 0.25rem;
+  }
+
+  .d-inline-flex svg {
+    width: 0.875em;
+    height: 0.875em;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .list-group-item {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .py-2 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .list-group-item-action {
+    min-height: 44px;
+  }
+
+  .page-link {
+    min-width: 44px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dropdown-toggle {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .list-group-item-action {
+    transition: none;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .background {
+    background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
+  }
+}

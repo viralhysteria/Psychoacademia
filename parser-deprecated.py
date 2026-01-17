@@ -7,10 +7,10 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from pathlib import Path
 
-os_home = str(Path.home())
-bookmarks = os.path.join(os_home, 'Documents', 'bookmarks.html')
-os_cwd = os.getcwd()
-source = os.path.join(os_cwd, 'unparsed.html')
+dir_home = str(Path.home())
+bookmarks = os.path.join(dir_home, 'Documents', 'bookmarks.html')
+dir_cwd = os.getcwd()
+source = os.path.join(dir_cwd, 'unparsed.html')
 shutil.copy(bookmarks, source)
 
 with open(source, 'r', encoding='utf-8') as f:
@@ -28,41 +28,48 @@ with open(source, 'r', encoding='utf-8') as f:
                 row['url'] = a['href']
                 row['title'] = a.text
                 links.append(row)
-
-    with codecs.open('..\\links.json', 'w', encoding='utf-8') as f:
-        json.dump(links, f)
-
     papers = sorted(links, key=lambda x: x['title'])
 
-output = input("Enter output format (html/json/md): ")
-if output == 'html':
-    with open('table.html', 'r+', encoding='utf-8') as f:
+def stripTitle(infile):
+    with open(infile, 'r+', encoding='utf-8') as f:
+        content = f.read()
+        content = re.sub(r'^[\w\s]+\s?\|\s?', '', content, flags=re.MULTILINE)
+        content = re.sub(r'\s?[|-]\s?[\w\d\s,]+$', '', content, flags=re.MULTILINE)
+        f.seek(0)
+        f.write(content)
+        f.truncate()
+
+outputFormat = input("Enter output format (html/json/md): ")
+if outputFormat == 'html':
+    with open('parsed.html', 'w', encoding='utf-8') as f:
         f.write('<table>\n')
         for paper in papers:
             f.write(
                 f'<tr><td><a href="{paper["url"]}">{paper["title"]}</a></td></tr>\n')
         f.write('\n</table>')
-        f.seek(0)
+    with open('parsed.html', 'r', encoding='utf-8') as f:
         content = f.read()
+        console.log(f.read)
         content = re.sub(r'>(\w+(-\w+)?\s\|\s) ', '>', content)
-        content = re.sub(r'\s-\s\w+<|\s\|\s(\w+((-|\s)\w+)?)< ', '<', content)
-        f.seek(0)
+        content = re.sub(r'\s-\s\w+<|\s\|\s(\+w((-|\s)\w+)?)< ', '<', content)
+    with open('parsed.html', 'w', encoding='utf-8') as f:
         f.write(content)
-        f.truncate()
-    print("Output saved as table.html")
-elif output == 'md':
+    stripTitle('parsed.html')
+    print('Output saved to parsed.html')
+elif outputFormat == 'md':
     with open('table.md', 'w', encoding='utf-8') as f:
         for paper in papers:
             f.write(f'* [{paper["title"]}]({paper["url"]})\n')
     print("Output saved as table.md")
-elif output == 'json':
-    json_data = []
+elif outputFormat == 'json':
+    json_data = [{"id": index + 1, "title": paper["title"],
+                  "url": paper["url"]} for index, paper in enumerate(papers)]
     json_path = os.path.join("public", "links.json")
-    for index, paper in enumerate(papers):
-        json_data.append({"id": index + 1, "title": paper["title"], "url": paper["url"]})
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(json_data, f, indent=4)
-    print("Output saved as links.json")
+
+    stripTitle(json_path)
+    print('Output saved as links.json')
 else:
-    print("Invalid output format selected. Please try again.")
+    print('Invalid output format selected. Please try again.')
 os.remove(source)
